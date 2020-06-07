@@ -5,13 +5,13 @@ function App() {
   return (
     <div className="App">
       {/* <Dinner></Dinner>*/}
-      <span style="background-color:grey;"><Dinner dishName="Chicken Karahi" sweetDish="Kheer" /></span>
+      <Dinner dishName="Chicken Karahi" sweetDish="Kheer" />
       <hr/>
       <Dinner dishName="Chicken Biryani" sweetDish="Jaleebi" />
       <hr/>
-      <Dinner dishName="Nihari" sweetDish="Gajar Ka Halwa" />
-      <hr/>
       <Dinner dishName="Chappal Kabab" sweetDish="Soji Ka Halwa" />
+      <hr/>
+      <Dinner dishName="Nihari" sweetDish="Gajar Ka Halwa" />
     </div>
   );
 }
