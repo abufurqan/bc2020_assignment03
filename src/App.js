@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       {/* <Dinner></Dinner>*/}
-      <Dinner dishName="Chicken Karahi" sweetDish="Kheer" />
+      <span style="background-color:grey;"><Dinner dishName="Chicken Karahi" sweetDish="Kheer" /></span>
       <hr/>
       <Dinner dishName="Chicken Biryani" sweetDish="Jaleebi" />
       <hr/>
