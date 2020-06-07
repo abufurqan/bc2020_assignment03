@@ -10,6 +10,8 @@ function App() {
       <Dinner dishName="Chicken Biryani" sweetDish="Jaleebi" />
       <hr/>
       <Dinner dishName="Nihari" sweetDish="Gajar Ka Halwa" />
+      <hr/>
+      <Dinner dishName="Chappal Kabab" sweetDish="Soji Ka Halwa" />
     </div>
   );
 }
